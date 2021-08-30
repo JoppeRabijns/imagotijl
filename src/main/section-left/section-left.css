@@ -1,0 +1,36 @@
+.section-left{
+  width: 100vw;
+  height: 100vh;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.section-left img{
+  height: 100%;
+  margin-left: 30%;
+  overflow:hidden;
+}
+
+.section-left .text{
+  position: absolute;
+  width: 50%;
+  background-color: #1C1C1C;
+  padding: 15px 150px 35px 150px;
+  left: 0%;
+  top: 25%;
+}
+
+.titel, .content {
+  color: #fff;
+}
+
+.titel{
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+.content{
+  font-size: 20px;
+}
