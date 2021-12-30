@@ -1,0 +1,40 @@
+.project {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.projectTitle {
+  font-size: 850%;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 25px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .project .projectTitle {
+    font-size: 200%;
+    -webkit-text-stroke-width: 1px;
+  }
+  .project .projectNew {
+    position: absolute;
+    color: rgb(255, 0, 0);
+    font-size: 50%;
+    font-weight: 400;
+    right: -20px;
+  }
+  .project .projectNumber {
+    color: #fff;
+    margin-bottom: -1.5em;
+    margin-left: -1rem;
+    font-size: 60%;
+    font-weight: 400;
+  }
+}

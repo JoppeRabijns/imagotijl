@@ -1,0 +1,9 @@
+.tickets{
+  max-width: 1620px;
+  height: 40vh;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  background-color: blue;
+  margin-top: 50px;
+}
