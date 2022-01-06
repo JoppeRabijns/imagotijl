@@ -10,7 +10,7 @@ const Socials = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <FeatherIcon size="24" className="icon" icon="linkedin" />
+        <FeatherIcon size="24" className="icon" icon="facebook" />
       </a>
       <a
         href="https://www.instagram.com/joppe.rabijns/"
@@ -24,7 +24,7 @@ const Socials = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <FeatherIcon size="24" className="icon" icon="github" />
+        <FeatherIcon size="24" className="icon" icon="youtube" />
       </a>
     </div>
   );

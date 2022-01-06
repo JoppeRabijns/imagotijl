@@ -6,6 +6,7 @@ import image from "../../assets/photo1.jpg";
 const VideoBackground = (props) => {
   return (
     <>
+      <div className="icon-scroll"></div>
       {window.innerWidth < 769 ? (
         <img className="image" src={image} alt="" />
       ) : (

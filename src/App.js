@@ -5,6 +5,7 @@ import Tickets from "./main/tickets/tickets";
 import VideoBackground from "./components/VideoBackground/VideoBackground";
 import Socials from "./components/Socials/Socials";
 import ProjectTitle from "./components/ProjecTitle/ProjectTitle";
+import Spacer from "./components/Spacer/Spacer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SectionLeft />
       <Tickets />
       <SectionRight />
+      <Spacer/>
     </div>
   );
 }

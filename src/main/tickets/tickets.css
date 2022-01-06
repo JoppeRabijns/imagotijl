@@ -1,9 +1,15 @@
-.tickets{
+.tickets {
   max-width: 1620px;
   height: 40vh;
   position: relative;
   overflow: hidden;
   margin: auto;
-  background-color: blue;
+  background-color: rgb(49, 49, 49);
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tickets {
+    margin-top: 20px;
+  }
 }
