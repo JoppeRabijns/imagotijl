@@ -9,6 +9,7 @@ import Spacer from "./components/Spacer/Spacer";
 import Numbers from "./main/numbers/Numbers";
 import Video from "./components/Video/Video";
 import SectionMedia from "./main/section-media/section-media";
+import Footer from "./main/footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Numbers />
       <SectionMedia />
       <Video />
+      <Spacer />
+      <Footer />
       <Spacer />
     </div>
   );
