@@ -8,6 +8,7 @@ import ProjectTitle from "./components/ProjecTitle/ProjectTitle";
 import Spacer from "./components/Spacer/Spacer";
 import Numbers from "./main/numbers/Numbers";
 import Video from "./components/Video/Video";
+import SectionMedia from "./main/section-media/section-media";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Tickets />
       <SectionRight />
       <Numbers />
+      <SectionMedia />
       <Video />
       <Spacer />
     </div>
