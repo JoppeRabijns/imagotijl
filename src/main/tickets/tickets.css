@@ -4,8 +4,63 @@
   position: relative;
   overflow: hidden;
   margin: auto;
-  background-color: rgb(49, 49, 49);
+  background-image: url(../../assets/photo3.jpg);
+  background-size: cover;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.event {
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tickets h2 {
+  margin: 0;
+  font-size: 35px;
+  color: white;
+}
+
+.tickets .date h2 {
+  margin: 0;
+  font-size: 50px;
+  color: white;
+}
+
+.tickets .date h6 {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.tickets .ticket h6 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.tickets .ticket a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.tickets .icon {
+  margin-left: 10px;
+}
+
+.weekmonth {
+  margin-left: 10px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 600px) {

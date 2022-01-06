@@ -16,11 +16,10 @@ function App() {
       <Socials />
       <VideoBackground />
       <SectionLeft />
-      <Numbers />
-      <Video/>
-      <SectionRight />
       <Tickets />
-
+      <Numbers />
+      <SectionRight />
+      <Video />
       <Spacer />
     </div>
   );
