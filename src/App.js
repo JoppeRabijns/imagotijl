@@ -17,8 +17,8 @@ function App() {
       <VideoBackground />
       <SectionLeft />
       <Tickets />
-      <Numbers />
       <SectionRight />
+      <Numbers />
       <Video />
       <Spacer />
     </div>
