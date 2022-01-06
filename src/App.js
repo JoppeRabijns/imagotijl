@@ -6,6 +6,7 @@ import VideoBackground from "./components/VideoBackground/VideoBackground";
 import Socials from "./components/Socials/Socials";
 import ProjectTitle from "./components/ProjecTitle/ProjectTitle";
 import Spacer from "./components/Spacer/Spacer";
+import Numbers from "./main/numbers/Numbers";
 
 function App() {
   return (
@@ -14,9 +15,11 @@ function App() {
       <Socials />
       <VideoBackground />
       <SectionLeft />
-      <Tickets />
+      <Numbers />
       <SectionRight />
-      <Spacer/>
+      <Tickets />
+
+      <Spacer />
     </div>
   );
 }
