@@ -1,9 +1,12 @@
 import "./Footer.css";
+import { FormattedMessage } from "react-intl";
 
 function Footer() {
   return (
     <div className="footer">
-      <h2>CONTACTEER ONS</h2>
+      <h2>
+        <FormattedMessage id="app.contacteerons" />
+      </h2>
       <p>
         Imago Tijl
         <br />

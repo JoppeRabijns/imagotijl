@@ -1,10 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { IntlProvider } from "react-intl";
+import messages_de from "./translations/de.json";
+import messages_en from "./translations/en.json";
+import messages_nl from "./translations/nl.json";
+
+const messages = {
+  nl: messages_nl,
+  de: messages_de,
+  en: messages_en,
+};
+const language = navigator.language.split(/[-_]/)[0];
 
 ReactDOM.render(
-    <App />,
-  document.getElementById('root')
+  <IntlProvider locale={language} messages={messages[language]}>
+    <App />
+  </IntlProvider>,
+  document.getElementById("root")
 );
-

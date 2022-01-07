@@ -1,5 +1,6 @@
 import "./tickets.css";
 import FeatherIcon from "feather-icons-react";
+import { FormattedMessage } from "react-intl";
 
 function Tickets() {
   return (
@@ -16,7 +17,7 @@ function Tickets() {
         <div className="ticket">
           <h6>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSckwW5edfTWEGNM2a97ALVEw4tfyfNbkcVfkOvZxsU3MRa1nA/viewform">
-              Bestel uw tickets
+              <FormattedMessage id="app.tickets" />
               <FeatherIcon size="20" className="icon" icon="shopping-cart" />
             </a>
           </h6>
@@ -34,12 +35,12 @@ function Tickets() {
         <div className="ticket">
           <h6>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSckwW5edfTWEGNM2a97ALVEw4tfyfNbkcVfkOvZxsU3MRa1nA/viewform">
-              Bestel uw tickets
+              <FormattedMessage id="app.tickets" />
               <FeatherIcon size="20" className="icon" icon="shopping-cart" />
             </a>
           </h6>
         </div>
-      </div>{" "}
+      </div>
       <div className="event">
         <div className="date">
           <h2>08</h2>
@@ -52,12 +53,12 @@ function Tickets() {
         <div className="ticket">
           <h6>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSckwW5edfTWEGNM2a97ALVEw4tfyfNbkcVfkOvZxsU3MRa1nA/viewform">
-              Bestel uw tickets
+              <FormattedMessage id="app.tickets" />
               <FeatherIcon size="20" className="icon" icon="shopping-cart" />
             </a>
           </h6>
         </div>
-      </div>{" "}
+      </div>
       <div className="event">
         <div className="date">
           <h2>08</h2>
@@ -70,7 +71,7 @@ function Tickets() {
         <div className="ticket">
           <h6>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSckwW5edfTWEGNM2a97ALVEw4tfyfNbkcVfkOvZxsU3MRa1nA/viewform">
-              Bestel uw tickets
+              <FormattedMessage id="app.tickets" />
               <FeatherIcon size="20" className="icon" icon="shopping-cart" />
             </a>
           </h6>
