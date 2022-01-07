@@ -18,11 +18,17 @@
   justify-content: space-around;
   align-items: center;
 }
+.dateandname {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 .tickets h2 {
   margin: 0;
   font-size: 25px;
   color: white;
+  margin-left: 3vw;
 }
 
 .tickets .date h2 {

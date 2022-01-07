@@ -14,7 +14,7 @@
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .footer {
     width: 70vw;
     margin: auto;
@@ -25,5 +25,12 @@
   .footer h2 {
     margin: 0;
     font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .footer {
+    width: 90vw;
+    margin-bottom: 35px;
   }
 }

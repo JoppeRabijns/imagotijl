@@ -10,6 +10,7 @@ import Numbers from "./main/numbers/Numbers";
 import Video from "./components/Video/Video";
 import SectionMedia from "./main/section-media/section-media";
 import Footer from "./main/footer/Footer";
+import Sponsors from "./main/sponsors/Sponsors";
 
 function App() {
   return (

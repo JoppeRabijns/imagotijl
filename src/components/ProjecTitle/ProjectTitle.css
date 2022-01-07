@@ -18,7 +18,7 @@
   white-space: nowrap;
 }
 
-@media only screen and (min-device-width: 600px) and (max-device-width: 1200px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   .project .projectTitle {
     font-size: 350%;
     letter-spacing: 15px;
