@@ -1,5 +1,5 @@
 import "./section-media.css";
-import photo1 from "../../assets/photo1.jpg";
+import photo4 from "../../assets/photo4.jpg";
 import { FormattedMessage } from "react-intl";
 
 function SectionMedia() {
@@ -13,7 +13,7 @@ function SectionMedia() {
           <FormattedMessage id="app.mediaContent" values={{ br: <br /> }} />
         </p>
       </div>
-      <img src={photo1}></img>
+      <img src={photo4}></img>
     </div>
   );
 }

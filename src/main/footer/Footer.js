@@ -13,15 +13,16 @@ function Footer() {
         Stationsstraat 25
         <br />
         3910 Neerpelt
-        <br />
-        <br />
+      </p>
+      <p>
         T. +32 11 64.07.01
         <br />
         F. +32 11 64.41.46
         <br />
         E. info@imagotijl.be <br />
-        W. www.imagotijl.be <br />
-        <br />
+        W. www.imagotijl.be
+      </p>
+      <p>
         Ons rekeningnummer
         <br />
         IBAN BE20 1030 1747 8256

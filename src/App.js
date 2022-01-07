@@ -21,6 +21,7 @@ function App() {
       <Tickets />
       <SectionRight />
       <Numbers />
+      <Spacer />
       <SectionMedia />
       <Video />
       <Spacer />
