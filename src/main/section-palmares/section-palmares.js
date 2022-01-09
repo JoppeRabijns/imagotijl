@@ -37,9 +37,10 @@ function SectionPalmares() {
             </li>
             <li> EK Judo (2011)</li>
             <li>
-              Intrede van Sinterklaas in Antwerpen voor Ketnet ( 2008, 2010,
-              2011)
+              Intrede van Sinterklaas in Antwerpen voor Ketnet ( 2008 - tot
+              heden)
             </li>
+            <li>modeshow in Parijs voor 20 jaar A.F. Vandevorst (2018)</li>
           </ul>
           <b>
             De jonge dansers schitterden in verschillende voorstellingen met

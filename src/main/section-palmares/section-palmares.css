@@ -1,6 +1,6 @@
 .section-palmares {
   max-width: 1920px;
-  height: 85vh;
+  height: 90vh;
   overflow: hidden;
   margin: auto;
   display: flex;
@@ -11,14 +11,14 @@
 
 .section-palmares img {
   height: 100%;
-  margin-left: 35%;
+  margin-left: 25%;
   overflow: hidden;
   object-fit: cover;
 }
 
 .section-palmares .text {
   position: absolute;
-  width: 40%;
+  width: 35%;
   background-color: #1c1c1c;
   padding: 15px 150px 35px 150px;
   left: 10%;

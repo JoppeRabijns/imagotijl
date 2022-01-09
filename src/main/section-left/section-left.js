@@ -16,7 +16,11 @@ function SectionLeft() {
             values={{ br: <br /> }}
           />
           <h6>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSckwW5edfTWEGNM2a97ALVEw4tfyfNbkcVfkOvZxsU3MRa1nA/viewform">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSckwW5edfTWEGNM2a97ALVEw4tfyfNbkcVfkOvZxsU3MRa1nA/viewform"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FormattedMessage id="app.tickets" />
               <FeatherIcon size="20" className="icon" icon="shopping-cart" />
             </a>
