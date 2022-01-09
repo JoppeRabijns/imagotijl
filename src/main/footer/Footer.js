@@ -19,8 +19,7 @@ function Footer() {
         <br />
         F. +32 11 64.41.46
         <br />
-        E. info@imagotijl.be <br />
-        W. www.imagotijl.be
+        E. info@imagotijl.be
       </p>
       <p>
         Ons rekeningnummer
