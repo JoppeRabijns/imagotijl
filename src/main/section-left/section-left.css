@@ -38,6 +38,24 @@
   font-size: 18px;
 }
 
+.section-left h6 {
+  margin: 0;
+  margin-top: 25px;
+  width: 160px;
+  font-size: 17px;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.section-left a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.section-left .icon {
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
   .section-left {
     overflow: auto;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
@@ -10,11 +10,21 @@ import messages_fr from "./translations/fr.json";
 
 const messages = {
   nl: messages_nl,
-  de: messages_de,
+  //de: messages_de,
   en: messages_en,
-  fr: messages_fr,
+  // fr: messages_fr,
 };
-const language = navigator.language.split(/[-_]/)[0];
+
+let language;
+
+if (
+  navigator.language.split(/[-_]/)[0] === "nl" ||
+  navigator.language.split(/[-_]/)[0] === "en"
+) {
+  language = navigator.language.split(/[-_]/)[0];
+} else {
+  language = "en";
+}
 
 ReactDOM.render(
   <IntlProvider locale={language} messages={messages[language]}>
