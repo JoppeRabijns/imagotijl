@@ -11,6 +11,7 @@ import Video from "./components/Video/Video";
 import SectionMedia from "./main/section-media/section-media";
 import Footer from "./main/footer/Footer";
 import Sponsors from "./main/sponsors/Sponsors";
+import SectionPalmares from "./main/section-palmares/section-palmares";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       <Tickets />
       <SectionRight />
       <Numbers />
-      <Spacer />
+      <SectionPalmares />
+      <Sponsors />
       <SectionMedia />
       <Video />
       <Spacer />

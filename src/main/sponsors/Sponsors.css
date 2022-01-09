@@ -1,4 +1,22 @@
+.logos {
+  width: 70vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+}
+
 .sponsorLogo {
   width: 20vw;
   height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .logos {
+    width: 90vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
 }

@@ -1,26 +1,27 @@
 .section-media {
   max-width: 1920px;
-  height: 65vh;
+  height: 60vh;
+  position: relative;
   overflow: hidden;
   margin: auto;
+  margin-top: 100px;
   display: flex;
-  margin-top: 50px;
-
   align-items: center;
 }
 
 .section-media img {
   height: 100%;
-  margin-left: 35%;
+  margin-left: -10%;
   overflow: hidden;
   object-fit: cover;
 }
+
 .section-media .text {
   position: absolute;
-  width: 40%;
+  width: 50%;
   background-color: #1c1c1c;
   padding: 15px 150px 35px 150px;
-  left: 10%;
+  right: 0%;
 }
 
 .section-media .titel,
@@ -37,14 +38,32 @@
   font-size: 18px;
 }
 
+.section-media h6 {
+  margin: 0;
+  margin-top: 25px;
+  width: 385px;
+  font-size: 17px;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.section-media a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.section-media .icon {
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
   .section-media {
     overflow: auto;
     margin: auto;
     height: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column-reverse;
   }
 
@@ -57,6 +76,7 @@
     display: block;
     margin-bottom: 15px;
   }
+
   .section-media .text {
     position: relative;
     margin-top: -150px;
@@ -65,6 +85,7 @@
     padding: 0;
     padding-top: 10px;
     overflow-y: hidden;
+    margin-left: 35px;
   }
 
   .section-media .titel {
@@ -74,16 +95,29 @@
     text-align: left;
     margin-bottom: 15px;
   }
-
-  .section-media .content {
-    width: 90%;
-    background-color: #1c1c1c;
-    left: 0%;
-    margin: auto;
-    margin-bottom: 15px;
-  }
-
   .section-media .content {
     font-size: 16px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-media h6 {
+    margin: 0;
+    margin-top: 20px;
+    width: 310px;
+    font-size: 13px;
+    color: white;
+    border-bottom: 1.5px solid white;
+  }
+
+  .section-media a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .section-media .icon {
+    margin-left: 10px;
   }
 }

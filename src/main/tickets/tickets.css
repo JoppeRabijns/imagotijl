@@ -14,7 +14,7 @@
 }
 .event {
   display: flex;
-  width: 95%;
+  width: 90%;
   justify-content: space-around;
   align-items: center;
 }
@@ -69,33 +69,50 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   .tickets {
     margin-top: 20px;
     background-position: center;
+    height: auto;
   }
 
+  .event {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .dateandname {
+    flex-direction: column;
+  }
+
+  .weekmonth {
+    margin-left: 5px;
+  }
   .tickets h2 {
     margin: 0;
-    font-size: 12px;
+    font-size: 13px;
     color: white;
   }
 
   .tickets .date h2 {
     margin: 0;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
   }
 
   .tickets .date h6 {
     margin: 0;
-    font-size: 9px;
+    font-size: 8px;
     color: white;
   }
 
   .tickets .ticket h6 {
     margin: 0;
-    font-size: 12px;
+    font-size: 13px;
     color: white;
     border-bottom: 2px solid white;
   }

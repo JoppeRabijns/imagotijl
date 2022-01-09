@@ -5,13 +5,13 @@ function Numbers() {
   return (
     <div className="numbers">
       <div className="item">
-        <h1 className="number">38</h1>
+        <h1 className="number">37</h1>
         <h2 className="subtitle">
           <FormattedMessage id="app.landen" />
         </h2>
       </div>
       <div className="item">
-        <h1 className="number">68</h1>
+        <h1 className="number">65</h1>
         <h2 className="subtitle">
           <FormattedMessage id="app.actief" />
         </h2>
