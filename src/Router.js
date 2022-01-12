@@ -9,6 +9,13 @@ const Hero = () => {
     <Router>
       <Switch>
         <Route path="/" exact component={App} />
+        <Route
+          path="/tickets"
+          render={() =>
+            (window.location =
+              "https://ticketshop.ticketmatic.com/dommelhof/shop-4")
+          }
+        />
         <Route path="*" component={App} />
       </Switch>
     </Router>
