@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import { IntlProvider } from "react-intl";
 import messages_de from "./translations/de.json";
 import messages_en from "./translations/en.json";
 import messages_nl from "./translations/nl.json";
 import messages_fr from "./translations/fr.json";
+import Hero from "./Router";
 
 const messages = {
   nl: messages_nl,
@@ -28,7 +28,7 @@ if (
 
 ReactDOM.render(
   <IntlProvider locale={language} messages={messages[language]}>
-    <App />
+    <Hero />
   </IntlProvider>,
   document.getElementById("root")
 );

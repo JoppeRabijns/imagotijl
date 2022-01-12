@@ -12,7 +12,7 @@ function Footer() {
         <br />
         Stationsstraat 25
         <br />
-        3910 Neerpelt
+        3910 Pelt
       </p>
       <p>
         T. +32 11 64.07.01

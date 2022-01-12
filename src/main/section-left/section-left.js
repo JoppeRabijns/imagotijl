@@ -1,5 +1,6 @@
 import "./section-left.css";
 import photo1 from "../../assets/photo1.jpg";
+import photo6 from "../../assets/photo6.jpg";
 import { FormattedMessage } from "react-intl";
 import FeatherIcon from "feather-icons-react";
 
@@ -17,7 +18,7 @@ function SectionLeft() {
           />
           <h6>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSckwW5edfTWEGNM2a97ALVEw4tfyfNbkcVfkOvZxsU3MRa1nA/viewform"
+              href="https://ticketshop.ticketmatic.com/dommelhof/shop-4"
               target="_blank"
               rel="noreferrer"
             >
