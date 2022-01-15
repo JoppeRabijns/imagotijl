@@ -26,9 +26,11 @@ function SectionLeft() {
               <FeatherIcon size="20" className="icon" icon="shopping-cart" />
             </a>
           </h6>
+          <br></br>
         </p>
+        <img src={photo6} className="poster"></img>
       </div>
-      <img src={photo1}></img>
+      <img src={photo1} className="image"></img>
     </div>
   );
 }

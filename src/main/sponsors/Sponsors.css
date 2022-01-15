@@ -1,23 +1,42 @@
-.logos {
-  width: 70vw;
-  max-width: 1280px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 75px;
+.slider {
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+  margin-top: 3vh;
+}
+.sponsorLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+.sponsorLogo img {
+  object-fit: scale-down;
+  height: 20vh;
+  width: 17vw !important;
 }
 
-.sponsorLogo {
-  width: 20vw;
-  height: auto;
+.slide {
+  margin: 0 !important;
 }
 
 @media only screen and (max-width: 600px) {
-  .logos {
+  .slider {
+    display: flex;
+    align-items: center;
     width: 90vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
+    margin: auto;
+  }
+  .sponsorLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+  }
+  .sponsorLogo img {
+    object-fit: scale-down;
+    height: 20vh;
+    width: 20vw;
   }
 }

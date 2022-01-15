@@ -1,11 +1,11 @@
 .section-palmares {
   max-width: 1920px;
-  height: 90vh;
+  height: 80vh;
   overflow: hidden;
   margin: auto;
   display: flex;
   margin-top: 60px;
-
+  position: relative;
   align-items: center;
 }
 
@@ -19,9 +19,12 @@
 .section-palmares .text {
   position: absolute;
   width: 35%;
+  height: auto;
+  max-height: 85%;
   background-color: #1c1c1c;
   padding: 15px 150px 35px 150px;
   left: 10%;
+  overflow: auto;
 }
 
 .section-palmares .titel,

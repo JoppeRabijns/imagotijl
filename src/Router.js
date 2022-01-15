@@ -6,10 +6,11 @@ import App from "./App";
 
 const Hero = () => {
   return (
-    <Router>
+    <Router forceRefresh={true}>
       <Switch>
         <Route path="/" exact component={App} />
         <Route
+          exact
           path="/tickets"
           render={() =>
             (window.location =
