@@ -15,22 +15,27 @@ import SectionPalmares from "./main/section-palmares/section-palmares";
 
 function App() {
   return (
-    <div className="App">
-      <ProjectTitle />
-      <Socials />
-      <VideoBackground />
-      <SectionLeft />
-      <Tickets />
-      <SectionRight />
-      <Numbers />
-      <SectionPalmares />
-      <Sponsors />
-      <SectionMedia />
-      <Video />
-      <Spacer />
-      <Footer />
-      <Spacer />
-    </div>
+    <>
+      <div className="App">
+        <ProjectTitle />
+        <Socials />
+        <VideoBackground />
+        <SectionLeft />
+        <Tickets />
+        <SectionRight />
+        <Numbers />
+        <SectionPalmares />
+        <Sponsors />
+        <SectionMedia />
+        <Video />
+        <Spacer />
+        <Footer />
+        <Spacer />
+      </div>
+      <div className="turn">
+        <img src="https://ak.picdn.net/shutterstock/videos/1021830733/thumb/8.jpg"></img>
+      </div>
+    </>
   );
 }
 

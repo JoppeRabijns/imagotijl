@@ -20,7 +20,7 @@ function Footer() {
           <br />
           F. +32 11 64.41.46
           <br />
-          E. info@imagotijl.be
+          <a href="mailto:info@imagotijl.be" className="email">E. info@imagotijl.be</a>
         </p>
         <p>
           Ons rekeningnummer
@@ -31,7 +31,11 @@ function Footer() {
         </p>
       </div>
       <p className="copyright">
-        <a href="https://adequaat.media/index.html">
+        <a
+          href="https://adequaat.media/index.html"
+          target="_blank"
+          rel="noreferrer"
+        >
           <b>©</b> www.adequaat.media
         </a>
       </p>
